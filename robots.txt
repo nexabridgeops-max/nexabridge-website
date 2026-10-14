@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nexabridge-solutions.netlify.app/sitemap.xml
+Sitemap: https://nexabridgeops-max.github.io/nexabridge-website/sitemap.xml
