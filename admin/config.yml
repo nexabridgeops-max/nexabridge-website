@@ -1,4 +1,3 @@
-1.
 backend:
   name: git-gateway
   branch: main
@@ -19,9 +18,30 @@ collections:
             name: "posts"
             widget: "list"
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Date", name: "date", widget: "datetime", time_format: false}
-              - {label: "Short Description", name: "excerpt", widget: "text"}
-              - {label: "Image", name: "image", widget: "image", required: false}
-              - {label: "LinkedIn URL", name: "linkedin_url", widget: "string", required: false}
-              - {label: "Full Text", name: "body", widget: "markdown", required: false}
+              - label: "Title"
+                name: "title"
+                widget: "string"
+
+              - label: "Date"
+                name: "date"
+                widget: "datetime"
+                time_format: false
+
+              - label: "Short Description"
+                name: "excerpt"
+                widget: "text"
+
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: false
+
+              - label: "LinkedIn URL"
+                name: "linkedin_url"
+                widget: "string"
+                required: false
+
+              - label: "Full Text"
+                name: "body"
+                widget: "markdown"
+                required: false
