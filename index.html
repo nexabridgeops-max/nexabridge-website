@@ -3,19 +3,74 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Google Search Console ownership -->
   <meta name="google-site-verification" content="0LqJji_nv28f0E9TLy844dTRWA3AKCuGR3j3RFZmqoA" />
-  <meta name="description" content="NexaBridge Solutions provides remote business operations and support services for service-based companies, including customer support, scheduling, dispatch coordination, CRM management and administrative support." />
+
+  <!-- Primary SEO -->
   <title>NexaBridge Solutions | Remote Business Operations & Support</title>
+  <meta name="description" content="NexaBridge Solutions provides remote customer support, appointment scheduling, dispatch coordination, CRM management, customer follow-ups, and administrative support for service-based businesses." />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://nexabridgeops-max.github.io/nexabridge-website/" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="NexaBridge Solutions" />
   <meta property="og:title" content="NexaBridge Solutions | Remote Business Operations & Support" />
-  <meta property="og:description" content="Reliable remote business operations and support for service-based companies, including customer support, scheduling, dispatch coordination, CRM management, and administrative support." />
+  <meta property="og:description" content="Reliable remote support for customer service, appointment scheduling, dispatch coordination, CRM management, follow-ups, and daily business operations." />
   <meta property="og:url" content="https://nexabridgeops-max.github.io/nexabridge-website/" />
   <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:image" content="https://nexabridgeops-max.github.io/nexabridge-website/assets/nexabridge-logo.png" />
+  <meta property="og:image:alt" content="NexaBridge Solutions logo" />
+
+  <!-- X / Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="NexaBridge Solutions | Remote Business Operations & Support" />
-  <meta name="twitter:description" content="Reliable remote business operations and support for service-based companies, including customer support, scheduling, dispatch coordination, CRM management, and administrative support." />
+  <meta name="twitter:description" content="Reliable remote support for customer service, scheduling, dispatch coordination, CRM management, follow-ups, and daily business operations." />
   <meta name="twitter:image" content="https://nexabridgeops-max.github.io/nexabridge-website/assets/nexabridge-logo.png" />
+
+  <!-- Organization structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://nexabridgeops-max.github.io/nexabridge-website/#organization",
+    "name": "NexaBridge Solutions",
+    "url": "https://nexabridgeops-max.github.io/nexabridge-website/",
+    "logo": "https://nexabridgeops-max.github.io/nexabridge-website/assets/nexabridge-logo.png",
+    "description": "NexaBridge Solutions provides remote business operations and support services for service-based companies, including customer support, appointment scheduling, dispatch coordination, CRM management, customer follow-ups, and administrative support.",
+    "email": "mailto:nexabridgeops@gmail.com",
+    "founder": {
+      "@type": "Person",
+      "name": "Sanaullah Ahmadi",
+      "jobTitle": "Founder & Managing Director"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/nexabridge-solutions/"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "business inquiries",
+      "email": "nexabridgeops@gmail.com",
+      "availableLanguage": ["English", "Persian"]
+    }
+  }
+  </script>
+
+  <!-- Website structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://nexabridgeops-max.github.io/nexabridge-website/#website",
+    "url": "https://nexabridgeops-max.github.io/nexabridge-website/",
+    "name": "NexaBridge Solutions",
+    "publisher": {
+      "@id": "https://nexabridgeops-max.github.io/nexabridge-website/#organization"
+    }
+  }
+  </script>
+
   <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -296,17 +351,5 @@
   </footer>
 
   <script src="script.js"></script>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
 </body>
 </html>
